@@ -13,3 +13,4 @@ from w
 where turn like ( select max(turn)
                   from w
                   where total_weight <= 1000)
+ 
